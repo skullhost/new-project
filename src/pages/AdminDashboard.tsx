@@ -51,7 +51,7 @@ const AdminDashboard = () => {
 
     try {
       // Temporary admin check - only allow specific email until user_roles table is ready
-      const adminEmail = "admin@storeskull.com";
+      const adminEmail = "angga@adminskull.com";
       
       if (user.email === adminEmail) {
         setIsAdmin(true);
